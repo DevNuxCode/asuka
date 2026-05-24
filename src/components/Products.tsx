@@ -70,7 +70,7 @@ export default function Products({ onAddToCart }: ProductsProps) {
               </div>
 
               <div className="p-4">
-                <h3 className="font-semibold text-gray-800 line-clamp-2 mb-2">{product.name}</h3>
+                <h3 className="font-semibold text-gray-800 dark:text-[#CBA135] line-clamp-2 mb-2">{product.name}</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">{product.description}</p>
 
                 <div className="flex items-center justify-between mb-4">

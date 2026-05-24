@@ -1,6 +1,8 @@
 import { ShoppingCart, Menu, X, Moon, Sun } from 'lucide-react';
 import { useState } from 'react';
 import { useTheme } from '../context/ThemeContext';
+import logoLight from '../../public/LogoIA.png';
+import logoDark from '../../public/LogoIA-white.png'
 
 interface NavbarProps {
   cartCount: number;
@@ -21,7 +23,32 @@ export default function Navbar({ cartCount, onCartClick }: NavbarProps) {
     <nav className="fixed w-full top-0 z-50 backdrop-blur-md bg-white bg-opacity-95 dark:bg-[#2d2d2d] dark:bg-opacity-95 border-b border-primary dark:border-[#CBA135] transition-colors duration-300">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2 cursor-pointer">
-          <img src="/LogoIA.png" alt="Asuka" className="h-8 w-8" />
+          
+          
+                   {/* Logo Light */}
+            <img
+              src={logoLight}
+              alt="Asuka Logo"
+              className="
+                h-10 w-auto
+                object-contain
+                dark:hidden
+                transition-all duration-300
+              "
+            />
+
+            {/* Logo Dark */}
+            <img
+              src={logoDark}
+              alt="Asuka Logo"
+              className="
+                hidden dark:block
+                h-10 w-auto
+                object-contain
+                transition-all duration-300
+              "
+            />
+
           <span className="font-semibold text-lg text-primary dark:text-[#CBA135]">Asuka</span>
         </div>
 

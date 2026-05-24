@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Contacto */}
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <img src="/LogoIA.png" alt="Asuka" className="h-8 w-8" />
+              <img src="/LogoIA-white.png" alt="Asuka" className="h-8 w-8" />
               <h3 className="text-xl font-bold">Asuka Cosmetics</h3>
             </div>
             <p className="text-sm mb-6 opacity-80 dark:text-gray-400">
