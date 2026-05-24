@@ -8,8 +8,7 @@ import Footer from './components/Footer';
 import Cart from './components/Cart';
 import ScrollToTop from './components/ScrollToTop';
 import { ThemeProvider } from './context/ThemeContext';
-
-
+import { Analytics } from "@vercel/analytics/next"
 
 export interface CartItem {
   id: number;
@@ -66,6 +65,7 @@ function App() {
           onUpdateQuantity={updateQuantity}
         />
       )}
+      <Analytics/>
       <Hero />
       <Products onAddToCart={addToCart} />
       <Testimonials />
