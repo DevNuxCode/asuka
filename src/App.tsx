@@ -8,7 +8,8 @@ import Footer from './components/Footer';
 import Cart from './components/Cart';
 import ScrollToTop from './components/ScrollToTop';
 import { ThemeProvider } from './context/ThemeContext';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+
+
 
 export interface CartItem {
   id: number;
@@ -65,7 +66,6 @@ function App() {
           onUpdateQuantity={updateQuantity}
         />
       )}
-      <SpeedInsights/>
       <Hero />
       <Products onAddToCart={addToCart} />
       <Testimonials />
