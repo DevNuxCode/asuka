@@ -114,7 +114,7 @@ export const products: Product[] = [
     name: 'Crema de Manos Sachet Varios Aromas',
     price: 1700,
     image: '/CremadeManos.png',
-    stock: 20,
+    stock: 0,
     category: 'Corporal',
     description: 'Crema para manos en formato sachet con varios aromas: Tutti Frutti, Frutilla, Uva.',
   },
