@@ -618,35 +618,7 @@ Utiliza por la mañana y por la noche 5. para mantener una piel limpia y fresca.
 
 ✨ Tip ASUKA: Después de la limpieza, aplica tu sérum y crema hidratante favorita para potenciar los beneficios de tu rutina de skincare. 🌸💜`,
   },
-  {
-    id: 23,
-    name: 'Mascarillas Facial Kiwi',
-    price: 1000,
-    image: 'https://www.image2url.com/r2/default/images/1781378169685-bee0ff8d-cd53-4a4f-a9aa-6f63957df180.png',
-    stock: 20,
-    category: 'Skincare',
-    description: `Revitaliza tu piel con la Mascarilla Facial Bubbaluu Kiwi, una fórmula inspirada en los beneficios naturales del kiwi para brindar hidratación, frescura y luminosidad al rostro. Rica en antioxidantes y vitaminas, ayuda a mantener la piel suave, nutrida y con una apariencia saludable.
-Su textura ligera permite una aplicación cómoda, proporcionando una agradable sensación refrescante mientras contribuye a mejorar el aspecto general de la piel. Ideal para complementar tu rutina de skincare y devolverle vitalidad a tu rostro.
-
-💖 Beneficios
-
-🥝 Ayuda a hidratar y nutrir la piel en profundidad.
-🥝 Favorece una apariencia más luminosa y saludable.
-🥝 Rica en antioxidantes que ayudan a proteger la piel.
-🥝 Contribuye a mantener la suavidad y elasticidad natural del rostro.
-🥝 Ayuda a revitalizar pieles cansadas o apagadas.
-🥝 Apta para todo tipo de piel.
-
-🧴 Modo de Uso:
-
-1. Limpia y seca completamente tu rostro.
-2. Aplica una capa uniforme evitando el área de los ojos y labios.
-3. Deja actuar durante 10 a 15 minutos.
-4. Retira con abundante agua tibia.
-5. Continúa con tu crema hidratante habitual.
-
-🌸 Tip Asuka: Para una experiencia aún más refrescante, conserva la mascarilla unos minutos en el refrigerador antes de aplicarla. Ideal para utilizar después de un día largo o cuando tu piel necesite un impulso de frescura. ✨🥝💚`,
-  },
+  
   {
     id: 24,
     name: 'Shampoo Uva',
@@ -1054,7 +1026,7 @@ Su fórmula ligera está diseñada para usarse tanto en el cuerpo como en el cab
     name: 'Body Mist Bath & Body Works Costa Rica',
     price: 9500,
     image: '/body_mist_costa_rica.jpg',
-    stock: 5,
+    stock: 0,
     category: 'Fragancias', 
     description: `Despierta tus sentidos con Pink Pineapple Sunrise Body Mist Mini, una fragancia tropical inspirada en los cálidos amaneceres del paraíso. Su delicioso aroma combina notas dulces y frutales que evocan la frescura de una piña rosada recién cortada bajo el sol, creando una experiencia alegre, luminosa y refrescante.
 Diseñado para utilizar tanto en el cuerpo como en el cabello, este body mist deja una delicada bruma perfumada que acompaña tu día con una sensación de frescura y energía. Su práctico formato mini es ideal para llevar en tu cartera o cosmetiquero y disfrutar de un toque tropical donde quiera que vayas.
@@ -1081,6 +1053,40 @@ Diseñado para utilizar tanto en el cuerpo como en el cabello, este body mist de
 4. Reaplica durante el día cuando desees refrescar tu fragancia.
 
 🌸 Tip Asuka: Para una mayor duración del aroma, aplica tu Pink Pineapple Sunrise Body Mist sobre la piel previamente humectada. También puedes rociar ligeramente tu cabello para disfrutar de sus notas tropicales cada vez que te muevas. 🍍☀️✨`,
+  },
+  {
+    id: 54,
+    name: 'Body Mist Bath & Body Works Japanese Cherry',
+    price: 9500,
+    image: '/body_mist_japanese_cherry.jpg',
+    stock: 8,
+    category: 'Fragancias', 
+    description: `Descubre la elegancia atemporal de Japanese Cherry Blossom, una de las fragancias más icónicas de Bath & Body Works. Su exquisita combinación de flores delicadas y notas suaves crea un aroma femenino, romántico y sofisticado que acompaña cada momento con un toque de belleza natural.
+Esta bruma perfumada está diseñada para usarse tanto en cuerpo como en cabello, dejando una estela floral duradera y una sensación fresca y ligera. Perfecta para quienes aman los aromas clásicos, elegantes y llenos de encanto.
+
+🌸 Notas Aromáticas
+🌸 Flor de Cerezo Japonés
+🍐 Pera Asiática
+🌼 Pétalos de Mimosa Fresca
+🤍 Jazmín Blanco
+🌿 Sándalo Suave
+
+💖 Beneficios
+
+✨ Perfuma delicadamente cuerpo y cabello.
+🌸 Aroma floral elegante, femenino y duradero.
+💖 Ideal para uso diario o ocasiones especiales.
+✔️ Dermatológicamente probado.
+🌿 Fragancia ligera y fácil de combinar con otras líneas de cuidado corporal.
+👜 Formato práctico para llevar a cualquier lugar.
+
+🧴 Modo de Uso
+
+1. Aplica sobre la piel limpia y humectada.
+2. Rocía en cuello, muñecas, escote y cabello a una distancia de 15 a 20 cm.
+3. Reaplica durante el día para mantener la intensidad de la fragancia.
+
+🌸 Tip Asuka: Para una mayor duración, aplica Japanese Cherry Blossom después de tu crema corporal favorita. La piel hidratada ayuda a fijar mejor el aroma, permitiendo que sus delicadas notas florales permanezcan por más tiempo. También puedes aplicar una ligera bruma sobre tu cabello para disfrutar de una fragancia elegante durante todo el día.`,
   },
   {
     id: 39,
@@ -1305,6 +1311,35 @@ Su fórmula inspirada en los beneficios antioxidantes de la cereza contribuye a 
 5. Finaliza con tu crema hidratante favorita.
 
 🌸 Tip Asuka: Para potenciar la sensación refrescante, guarda la mascarilla unos minutos en el refrigerador antes de usarla. Tu piel se sentirá más fresca, suave y revitalizada. ✨🍒❤️`,
+  },
+  {
+    id: 23,
+    name: 'Mascarillas Facial Kiwi',
+    price: 1000,
+    image: 'https://www.image2url.com/r2/default/images/1781378169685-bee0ff8d-cd53-4a4f-a9aa-6f63957df180.png',
+    stock: 20,
+    category: 'Skincare',
+    description: `Revitaliza tu piel con la Mascarilla Facial Bubbaluu Kiwi, una fórmula inspirada en los beneficios naturales del kiwi para brindar hidratación, frescura y luminosidad al rostro. Rica en antioxidantes y vitaminas, ayuda a mantener la piel suave, nutrida y con una apariencia saludable.
+Su textura ligera permite una aplicación cómoda, proporcionando una agradable sensación refrescante mientras contribuye a mejorar el aspecto general de la piel. Ideal para complementar tu rutina de skincare y devolverle vitalidad a tu rostro.
+
+💖 Beneficios
+
+🥝 Ayuda a hidratar y nutrir la piel en profundidad.
+🥝 Favorece una apariencia más luminosa y saludable.
+🥝 Rica en antioxidantes que ayudan a proteger la piel.
+🥝 Contribuye a mantener la suavidad y elasticidad natural del rostro.
+🥝 Ayuda a revitalizar pieles cansadas o apagadas.
+🥝 Apta para todo tipo de piel.
+
+🧴 Modo de Uso:
+
+1. Limpia y seca completamente tu rostro.
+2. Aplica una capa uniforme evitando el área de los ojos y labios.
+3. Deja actuar durante 10 a 15 minutos.
+4. Retira con abundante agua tibia.
+5. Continúa con tu crema hidratante habitual.
+
+🌸 Tip Asuka: Para una experiencia aún más refrescante, conserva la mascarilla unos minutos en el refrigerador antes de aplicarla. Ideal para utilizar después de un día largo o cuando tu piel necesite un impulso de frescura. ✨🥝💚`,
   },
   {
     id: 46,
@@ -1534,4 +1569,5 @@ Los antioxidantes naturales del arándano ayudan a proteger la piel de las agres
 
 🌸 Tip Asuka: Para una sensación extra refrescante, guarda la mascarilla en el refrigerador unos minutos antes de usarla. Úsala 2 a 3 veces por semana para mantener tu piel hidratada, luminosa y con un aspecto saludable. ✨🫐💙`,
   },
+  
 ];
