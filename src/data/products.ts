@@ -13,6 +13,7 @@ export const categories = [
   'Skincare',
   'Capilar',
   'Corporal',
+  'Fragancias',
 ] as const;
 
 export type Category = (typeof categories)[number];
@@ -803,7 +804,7 @@ Aplica una pequeña cantidad del producto sobre la piel.
     price: 3700,
     image: 'https://www.image2url.com/r2/default/images/1781378696889-641a61e2-e871-4015-af5b-5b4118e3d627.jpg',
     stock: 10,
-    category: 'Corporal', 
+    category: 'Fragancias', 
     description: `Déjate envolver por la esencia única de Splash Bubbaluu Midnight, una fragancia fresca e intensa diseñada para quienes buscan destacar con un aroma sofisticado y cautivador. Su combinación de notas amaderadas y frescas brinda una sensación de limpieza, elegancia y confianza que te acompaña durante todo el día.
 Su fórmula ligera refresca la piel al instante, dejando una delicada estela aromática ideal para cualquier ocasión, especialmente para quienes prefieren aromas más profundos y envolventes.
 
@@ -831,7 +832,7 @@ Su fórmula ligera refresca la piel al instante, dejando una delicada estela aro
     price: 3700,
     image: 'https://www.image2url.com/r2/default/images/1781378743525-b4bef794-4f83-48bb-a4ab-73ad75b0203c.jpg',
     stock: 10,
-    category: 'Corporal', 
+    category: 'Fragancias', 
     description: `Déjate envolver por el encanto de Splash Bubbaluu Seduction, una fragancia intensa y femenina que combina delicadas notas dulces y florales para crear una experiencia irresistible. Su fórmula ligera refresca la piel mientras deja un aroma envolvente y duradero, perfecto para quienes aman destacar con un toque de elegancia y personalidad.
 Ideal para el día o la noche, Seduction aporta frescura, suavidad y una exquisita sensación de bienestar en cada aplicación.
 
@@ -878,5 +879,298 @@ Modo de uso:
 5. Cierra bien el envase después de cada uso para mantener la humedad de las toallitas.
 
 💖 Tip Asuka: Ideales para llevar en tu cartera o mochila y refrescar tu piel durante el día, después del gimnasio o mientras viajas. ✨🍓🌸`,
+  },
+  {
+    id: 36,
+    name: 'Body Mist Bath & Body Works A Thousand Wishes',
+    price: 9500,
+    image: '/body_mist_a_thousand_wishes.jpg',
+    stock: 10,
+    category: 'Fragancias', 
+    description: `Celebra cada momento con A Thousand Wishes Body Mist Mini, una fragancia cálida, luminosa y encantadora que transmite alegría, elegancia y feminidad. Inspirada en los deseos, los sueños y las celebraciones especiales, esta bruma perfumada envuelve tu piel y cabello con un aroma dulce y sofisticado que deja una impresión inolvidable.
+Su fórmula ligera está diseñada para usarse en cuerpo y cabello, proporcionando una sensación refrescante y una delicada estela aromática durante todo el día. Su práctico formato mini es perfecto para llevar en tu cartera y disfrutar de tu fragancia favorita donde quiera que vayas.
+
+💖 Notas Aromáticas
+🌸 Peonías Cristalinas
+🍐 Membrillo Chispeante
+✨ Ámbar Dorado
+🍮 Crema de Amaretto
+
+💖 Beneficios
+
+✨ Perfuma delicadamente cuerpo y cabello.
+💖 Aroma dulce, cálido y femenino.
+🌸 Ideal para el uso diario y ocasiones especiales.
+👜 Formato mini práctico para llevar a todas partes.
+✨ Deja una estela elegante y duradera.
+✔️ Dermatológicamente probado.
+
+🧴 Modo de Uso
+
+1. Aplica una crema corporal hidratante sobre la piel limpia.
+2. Espera unos minutos para que se absorba correctamente.
+3. Rocía el Body Mist sobre cuello, muñecas, escote y cabello a una distancia de 15 a 20 cm.
+4. Reaplica durante el día cuando desees refrescar tu fragancia.
+
+🌸 Tip Asuka: Para prolongar la duración de A Thousand Wishes, aplícalo sobre la piel humectada después de tu rutina corporal. También puedes perfumar ligeramente tu cabello para mantener su aroma delicado durante más tiempo. Combínalo con una crema de vainilla, almendra o notas dulces para potenciar aún más su fragancia.`,
+  },
+  {
+    id: 37,
+    name: 'Body Mist Bath & Body Works Champagne Toast',
+    price: 9500,
+    image: '/body_mist_champagne_toast.jpg',
+    stock: 10,
+    category: 'Fragancias', 
+    description: `Celebra cada día con Champagne Toast Body Mist Mini, una fragancia vibrante, dulce y efervescente que transforma cualquier momento en una ocasión especial. Inspirada en el brillo de una copa de champaña y la frescura de las frutas cítricas, esta bruma perfumada envuelve tu piel y cabello con un aroma alegre, femenino y lleno de energía.
+Su fórmula ligera está diseñada para usarse tanto en el cuerpo como en el cabello, dejando una sensación refrescante y una fragancia irresistible durante todo el día. Gracias a su práctico formato mini, podrás llevarla contigo donde quieras y refrescar tu aroma en cualquier momento.
+
+🥂 Notas Aromáticas
+🍾 Champaña burbujeante
+🍓 Frutos rojos efervescentes
+🍊 Mandarina jugosa
+🌟 Beneficios
+✨ Perfuma delicadamente cuerpo y cabello.
+🥂 Aroma dulce, frutal y chispeante.
+💖 Brinda una sensación fresca y femenina durante todo el día.
+👜 Formato mini ideal para llevar en cartera o cosmetiquero.
+🌸 Perfecto para uso diario o ocasiones especiales.
+☀️ Deja una estela alegre y sofisticada.
+
+🧴 Modo de Uso
+
+1. Aplica una crema corporal o loción hidratante sobre la piel limpia.
+2. Espera unos minutos para que la hidratante se absorba.
+3. Rocía el Body Mist sobre cuello, muñecas, escote y cabello a una distancia de 15 a 20 cm.
+4. Reaplica cuando desees intensificar o refrescar tu fragancia.
+
+🌸 Tip Asuka: Para una mayor duración del aroma, aplica Champagne Toast sobre la piel previamente humectada. También puedes rociar ligeramente tu cabello para disfrutar de sus notas frutales y burbujeantes durante todo el día. Combínalo con una crema de aroma dulce o frutal para potenciar aún más su duración.`,
+  },
+  {
+    id: 38,
+    name: 'Body Mist Bath & Body Works Costa Rica',
+    price: 9500,
+    image: '/body_mist_costa_rica.jpg',
+    stock: 5,
+    category: 'Fragancias', 
+    description: `Despierta tus sentidos con Pink Pineapple Sunrise Body Mist Mini, una fragancia tropical inspirada en los cálidos amaneceres del paraíso. Su delicioso aroma combina notas dulces y frutales que evocan la frescura de una piña rosada recién cortada bajo el sol, creando una experiencia alegre, luminosa y refrescante.
+Diseñado para utilizar tanto en el cuerpo como en el cabello, este body mist deja una delicada bruma perfumada que acompaña tu día con una sensación de frescura y energía. Su práctico formato mini es ideal para llevar en tu cartera o cosmetiquero y disfrutar de un toque tropical donde quiera que vayas.
+
+🍍 Notas Aromáticas
+🍍 Piña rosada dulce
+🌴 Azúcar de palma
+☀️ Néctar bañado por el sol
+
+💖 Beneficios
+
+✨ Perfuma delicadamente cuerpo y cabello.
+🍍 Aroma tropical, dulce y refrescante.
+💖 Brinda una agradable sensación de frescura durante el día.
+👜 Formato mini ideal para llevar a todas partes.
+☀️ Perfecto para uso diario y climas cálidos.
+🌺 Deja una estela alegre, femenina y veraniega.
+
+🧴 Modo de Uso:
+
+1. Aplica una crema corporal o loción hidratante sobre la piel limpia.
+2. Espera unos minutos para que la hidratante se absorba.
+3. Rocía el Body Mist sobre cuello, escote, muñecas y cabello a una distancia de 15 a 20 cm.
+4. Reaplica durante el día cuando desees refrescar tu fragancia.
+
+🌸 Tip Asuka: Para una mayor duración del aroma, aplica tu Pink Pineapple Sunrise Body Mist sobre la piel previamente humectada. También puedes rociar ligeramente tu cabello para disfrutar de sus notas tropicales cada vez que te muevas. 🍍☀️✨`,
+  },
+  {
+    id: 39,
+    name: 'Body Mist Bath & Body Works Dreaming of Rio',
+    price: 9500,
+    image: '/body_mist_dreaming_of_rio.jpg',
+    stock: 8,
+    category: 'Fragancias', 
+    description: `Escápate a las playas soleadas de Río de Janeiro con Dreaming of Rio Body Mist Mini, una fragancia dulce, floral y cálida inspirada en la energía, belleza y encanto de Brasil. Su exquisita combinación de notas tropicales envuelve tu piel y cabello con un aroma femenino, acogedor y lleno de personalidad.
+Diseñado para usar tanto en el cuerpo como en el cabello, este body mist proporciona una sensación refrescante mientras deja una delicada estela aromática durante el día. Su formato mini es perfecto para llevar en la cartera, mochila o cosmetiquero y disfrutar de un toque de frescura donde quieras.
+
+🌺 Notas Aromáticas
+🍌 Plátano dorado
+🌼 Pétalos de gardenia
+🌳 Madera de cedro iluminada por el sol
+🌟 Beneficios
+✨ Perfuma delicadamente cuerpo y cabello.
+🌴 Aroma dulce, floral y cálido con inspiración tropical.
+💖 Brinda una agradable sensación de frescura.
+👜 Formato mini ideal para llevar a todas partes.
+☀️ Perfecto para uso diario y ocasiones especiales.
+🌺 Deja una estela femenina y envolvente.
+
+🧴 Modo de Uso
+
+1. Aplica una crema corporal o loción hidratante sobre la piel limpia.
+2. Espera unos minutos para que la hidratante se absorba.
+3. Rocía el Body Mist sobre cuello, escote, muñecas y cabello a una distancia de 15 a 20 cm.
+4. Reaplica durante el día para mantener la intensidad de la fragancia.
+
+🌸 Tip Asuka: Para una mayor duración del aroma, aplica tu Dreaming of Rio Body Mist sobre la piel previamente humectada. También puedes perfumar ligeramente tu cabello para disfrutar de sus notas tropicales cada vez que te muevas. 🌴🍌✨`,
+  },
+  {
+    id: 40,
+    name: 'Body Mist Bath & Body Works In the Stars',
+    price: 9500,
+    image: '/body_mist_in_the_stars.jpg',
+    stock: 4,
+    category: 'Fragancias', 
+    description: `Déjate envolver por la magia de In The Stars Body Mist Mini, una fragancia cálida, luminosa y sofisticada inspirada en los momentos que brillan como las estrellas. Su exquisita combinación de notas dulces, amaderadas y ambaradas crea un aroma elegante y envolvente que destaca por su feminidad y personalidad única.
+Esta bruma perfumada está diseñada para usarse en cuerpo y cabello, proporcionando una sensación refrescante mientras deja una delicada estela aromática durante todo el día. Su práctico formato mini es ideal para llevar contigo y reaplicar tu fragancia favorita cuando lo desees.
+
+⭐ Notas Aromáticas
+🌼 Flor de Estrella
+🤍 Almizcle de Sándalo
+🍊 Tangelo Azucarado
+🌳 Madera de Agar Blanca
+✨ Ámbar Radiante
+
+💖 Beneficios
+
+✨ Perfuma delicadamente cuerpo y cabello.
+⭐ Aroma cálido, elegante y duradero.
+💖 Ideal para quienes buscan una fragancia sofisticada y femenina.
+👜 Formato mini perfecto para cartera o cosmetiquero.
+🌸 Deja una estela envolvente y luminosa.
+✔️ Dermatológicamente probado y libre de parabenos.
+
+🧴 Modo de Uso
+
+1. Aplica una crema corporal hidratante sobre la piel limpia.
+2. Espera unos minutos para que la piel absorba la hidratación.
+3. Rocía el Body Mist sobre cuello, muñecas, escote y cabello a una distancia de 15 a 20 cm.
+4. Reaplica durante el día para mantener la intensidad de la fragancia.
+
+🌸 Tip Asuka: Para prolongar la duración de In The Stars, aplícalo sobre la piel humectada después de tu rutina de cuidado corporal. También puedes perfumar ligeramente tu cabello para disfrutar de sus notas cálidas y radiantes por más tiempo. Combínalo con una crema de vainilla, ámbar o notas dulces para potenciar aún más su aroma`,
+  },
+  {
+    id: 41,
+    name: 'Body Mist Bath & Body Works Into the night',
+    price: 9500,
+    image: '/body_mist_into_the_night.jpg',
+    stock: 12,
+    category: 'Fragancias', 
+    description: `Déjate envolver por el misterio y la elegancia de Into The Night Body Mist Mini. Esta sofisticada bruma perfumada captura la esencia de una noche inolvidable, combinando notas frutales oscuras, flores aterciopeladas y acordes cálidos que crean una fragancia intensa, femenina y cautivadora.
+Diseñada para usarse en cuerpo y cabello, su fórmula ligera refresca y perfuma delicadamente, dejando una estela envolvente y duradera. Su práctico formato mini es perfecto para llevar contigo y reaplicar tu aroma favorito cuando lo desees.
+
+🌙 Notas Aromáticas
+🖤 Frambuesa Noir
+✨ Cristales de Ámbar
+🌹 Pétalos de Rosa Aterciopelada
+🤎 Pachulí Cremoso
+☕ Almizcle de Mocha
+🌟 Beneficios
+✨ Perfuma delicadamente cuerpo y cabello.
+🌙 Aroma elegante, profundo y sofisticado.
+💖 Ideal para salidas nocturnas y ocasiones especiales.
+👜 Formato mini práctico para llevar a todas partes.
+🌸 Deja una estela femenina y envolvente.
+✔️ Dermatológicamente probado y libre de parabenos.
+
+🧴 Modo de Uso
+
+1. Aplica una crema corporal hidratante sobre la piel limpia.
+2. Espera unos minutos para que se absorba completamente.
+3. Rocía el Body Mist sobre cuello, muñecas, escote y cabello a una distancia de 15 a 20 cm.
+4. Reaplica durante el día o la noche para mantener la intensidad de la fragancia.
+
+🌸 Tip Asuka: Para potenciar la duración de Into The Night, aplícalo sobre la piel humectada después de tu rutina de cuidado corporal. También puedes rociar ligeramente tu cabello para disfrutar de su aroma elegante y sofisticado durante más tiempo. Combínalo con una crema de notas dulces o ambaradas para una experiencia aún más intensa.`,
+  },
+  {
+    id: 42,
+    name: 'Body Mist Bath & Body Works Rose',
+    price: 9500,
+    image: '/body_mist_rose.jpg',
+    stock: 6,
+    category: 'Fragancias', 
+    description: `Déjate envolver por la delicadeza de Rose Fine Fragrance Mist, una fragancia floral fresca, ligera y elegante que captura la esencia de un jardín de rosas recién florecidas. Su aroma limpio y romántico combina suaves notas florales con un toque de almizcle cremoso, creando una experiencia femenina y sofisticada para el día a día.
+Esta bruma perfumada está diseñada para usarse en cuerpo y cabello, dejando una sensación refrescante y una delicada estela floral que acompaña cada momento. Su práctico formato de viaje es perfecto para llevar contigo y reaplicar cuando desees renovar tu aroma.
+
+🌹 Notas Aromáticas
+💧 Agua de Rosa Ligera
+🌸 Pétalos de Jazmín
+🤍 Almizcle Cremoso
+
+💖 Beneficios
+
+✨ Perfuma delicadamente cuerpo y cabello.
+🌹 Aroma floral fresco, limpio y romántico.
+💖 Ideal para quienes aman las fragancias suaves y elegantes.
+👜 Formato travel size perfecto para llevar a todas partes.
+✔️ Libre de parabenos y dermatológicamente probado.
+🌸 Deja una sensación ligera y confortable durante el día.
+
+🧴 Modo de Uso
+
+1. Aplica sobre la piel limpia y humectada.
+2. Rocía en cuello, muñecas, escote y cabello a una distancia de 15 a 20 cm.
+3. Reaplica durante el día para mantener la frescura de la fragancia.
+
+🌸 Tip Asuka: Para potenciar la duración del aroma, aplica Rose después de tu crema corporal favorita. La piel hidratada ayuda a fijar mejor la fragancia, permitiendo que sus delicadas notas florales permanezcan por más tiempo. También puedes perfumar ligeramente tu cabello para disfrutar de un aroma fresco y femenino durante todo el día.`,
+  },
+  {
+    id: 43,
+    name: 'Body Mist Bath & Body Viva Brazil',
+    price: 9500,
+    image: '/body_mist_viva_brazil.jpg',
+    stock: 16,
+    category: 'Fragancias', 
+    description: `Déjate envolver por la energía tropical de Viva Brazil Body Mist Mini, una fragancia inspirada en los vibrantes paisajes y aromas de Brasil. Su combinación de notas frutales y refrescantes crea un aroma alegre, femenino y lleno de vitalidad, perfecto para quienes aman las fragancias dulces con un toque fresco y exótico.
+Su práctico formato mini es ideal para llevar en la cartera, mochila o cosmetiquero, permitiéndote refrescar tu aroma en cualquier momento del día.
+
+🌴 Notas Aromáticas
+🥭 Guayaba fresca
+🍈 Ralladura de maracuyá
+🥥 Agua de coco
+🌟 Beneficios
+✨ Aroma tropical dulce y refrescante.
+💖 Brinda una agradable sensación de frescura sobre la piel.
+👜 Formato práctico para llevar a todas partes.
+🌺 Ideal para uso diario y cualquier ocasión.
+☀️ Perfecto para quienes disfrutan fragancias frutales y veraniegas.
+
+🧴 Modo de Uso
+1. Aplica una crema corporal o loción hidratante sobre la piel limpia.
+2. Espera unos minutos para que la hidratante se absorba.
+3. Rocía el Body Mist sobre cuello, escote, muñecas y detrás de las orejas.
+4. Reaplica durante el día cuando desees refrescar tu fragancia.
+
+🌸 Tip Asuka: Para lograr una mayor duración del aroma, aplica tu Body Mist Viva Brazil sobre la piel previamente humectada con crema corporal. La hidratación ayuda a fijar mejor la fragancia, permitiendo que sus deliciosas notas tropicales te acompañen durante más tiempo. 🌺🥥✨`,
+  },
+  {
+    id: 44,
+    name: 'Body Mist Bath & Body Vainilla',
+    price: 9500,
+    image: '/body_mist_warm_vainilla.jpg',
+    stock: 8,
+    category: 'Fragancias', 
+    description: `Disfruta de la dulzura reconfortante de Warm Vanilla Sugar Body Mist Mini, una fragancia cálida, cremosa y envolvente que transforma cada aplicación en un momento de bienestar. Su exquisita combinación de vainilla, flores suaves y notas amaderadas crea un aroma dulce y elegante, perfecto para quienes aman las fragancias acogedoras y femeninas.
+Esta bruma perfumada está diseñada para usarse en cuerpo y cabello, dejando una sensación fresca y una delicada estela aromática que acompaña durante todo el día. Su práctico formato mini la convierte en la compañera ideal para llevar en tu cartera y refrescar tu aroma cuando lo necesites.
+
+🤎 Notas Aromáticas
+🍦 Vainilla Embriagante
+🌼 Orquídea Blanca
+✨ Azúcar Brillante
+🌸 Jazmín Fresco
+🌿 Sándalo Cremoso
+
+💖 Beneficios
+
+✨ Perfuma delicadamente cuerpo y cabello.
+🤎 Aroma dulce, cálido y reconfortante.
+🌸 Ideal para uso diario durante todo el año.
+👜 Formato mini práctico para llevar a todas partes.
+💖 Deja una estela suave, femenina y duradera.
+✔️ Dermatológicamente probado y libre de parabenos.
+
+🧴 Modo de Uso
+
+1. Aplica una crema corporal hidratante sobre la piel limpia.
+2. Espera unos minutos para que la piel absorba la hidratación.
+3. Rocía el Body Mist sobre cuello, muñecas, escote y cabello a una distancia de 15 a 20 cm.
+4. Reaplica durante el día para mantener la intensidad de la fragancia.
+
+🌸 Tip Asuka: Para una mayor duración del aroma, aplica Warm Vanilla Sugar sobre la piel humectada después de tu rutina corporal. También puedes perfumar ligeramente tu cabello para disfrutar de sus notas dulces y cremosas por más tiempo. Combínalo con una crema de vainilla o manteca corporal para potenciar aún más su fragancia.`,
   },
 ];
