@@ -721,7 +721,28 @@ Modo de uso:
     image: 'https://www.image2url.com/r2/default/images/1781378912557-96b925a3-635e-4dac-9c14-69369a492c08.jpg',
     stock: 10,
     category: 'Skincare',
-    description: 'Mascarillas para ojeras',
+    description: `Devuelve luminosidad y frescura a tu mirada con la Mascarilla para Ojeras Bubbaluu Perlas. Su fórmula hidratante ayuda a revitalizar el contorno de ojos, aportando suavidad y una apariencia más descansada desde la primera aplicación.
+Inspirada en el brillo natural de las perlas, esta mascarilla proporciona una agradable sensación refrescante que ayuda a disminuir los signos visibles de cansancio, dejando la piel más luminosa y radiante.
+
+💖 Beneficios
+
+⚪ Ayuda a iluminar el contorno de ojos.
+⚪ Proporciona hidratación profunda y duradera.
+⚪ Contribuye a disminuir la apariencia de ojeras y bolsas.
+⚪ Favorece una mirada más fresca y descansada.
+⚪ Ayuda a suavizar la delicada piel del área ocular.
+⚪ Ideal para todo tipo de piel.
+
+🧴 Modo de uso:
+
+1. Limpia y seca completamente el rostro.
+2. Coloca los parches debajo de los ojos.
+3. Deja actuar entre 15 y 20 minutos.
+4. Retira cuidadosamente la mascarilla.
+5. Masajea suavemente el sérum restante hasta su completa absorción.
+6. No es necesario enjuagar.
+
+🌸 Tip Asuka: Utiliza la mascarilla antes deuna ocasión especial para lucir una mirada más luminosa y descansada. Para potenciar el efecto refrescante, refrigérala unos minutos antes de usarla. ✨⚪🤍`,
   },
   {
     id: 27,
@@ -730,7 +751,27 @@ Modo de uso:
     image: 'https://www.image2url.com/r2/default/images/1781378912557-96b925a3-635e-4dac-9c14-69369a492c08.jpg',
     stock: 10,
     category: 'Skincare',
-    description: 'Mascarillas para ojeras',
+    description: `Ilumina y revitaliza tu mirada con la Mascarilla para Ojeras Bubbaluu Naranja. Enriquecida con extracto de naranja, ayuda a refrescar e hidratar profundamente el contorno de ojos, dejando la piel con una apariencia más luminosa, descansada y saludable.
+Su fórmula proporciona una agradable sensación de frescura mientras ayuda a reducir los signos visibles de cansancio, bolsas y ojeras, devolviendo vitalidad a tu mirada.
+
+💖 Beneficios
+
+🍊 Ayuda a iluminar el contorno de ojos.
+🍊 Proporciona hidratación profunda y duradera.
+🍊 Contribuye a disminuir la apariencia de ojeras y bolsas.
+🍊 Favorece una mirada más fresca y descansada.
+🍊 Refresca y suaviza la delicada piel del área ocular.
+🍊 Ideal para todo tipo de piel.
+
+🧴 Modo de uso
+1. Limpia y seca completamente el rostro.
+2. Coloca los parches debajo de los ojos.
+3. Deja actuar entre 15 y 20 minutos.
+4. Retira cuidadosamente la mascarilla.
+5. Masajea suavemente el sérum restante hasta su completa absorción.
+6. No es necesario enjuagar.
+
+🌸 Tip Asuka: Úsala por la mañana para despertar tu mirada y darle un aspecto más fresco y luminoso durante todo el día. Para potenciar su efecto refrescante, refrigérala unos minutos antes de aplicarla. ❄️🍊✨`,
   },
    {
     id: 28,
@@ -739,7 +780,28 @@ Modo de uso:
     image: 'https://www.image2url.com/r2/default/images/1781378912557-96b925a3-635e-4dac-9c14-69369a492c08.jpg',
     stock: 10,
     category: 'Skincare',
-    description: 'Mascarillas para ojeras',
+    description: `Revitaliza tu mirada con la Mascarilla para Ojeras Hidratante Bubbaluu Kiwi. Su fórmula enriquecida con extracto de kiwi ayuda a hidratar y refrescar el contorno de los ojos, proporcionando una sensación de alivio inmediato frente al cansancio y la fatiga diaria.
+Gracias a sus ingredientes humectantes, deja la piel suave, luminosa y con una apariencia más descansada, ayudando a reducir visualmente bolsas y ojeras.
+
+💖 Beneficios
+
+🥝 Ayuda a revitalizar el contorno de ojos.
+🥝 Proporciona hidratación profunda y duradera.
+🥝 Favorece una apariencia más luminosa y descansada.
+🥝 Ayuda a disminuir la apariencia de bolsas y ojeras.
+🥝 Refresca y calma la piel delicada del área ocular.
+🥝 Apta para todo tipo de piel.
+
+🧴 Modo de uso:
+
+1. Limpia y seca completamente el rostro.
+2. Aplica los parches debajo de los ojos.
+3. Deja actuar durante 15 a 20 minutos.
+4. Retira cuidadosamente la mascarilla.
+5. Masajea suavemente el sérum restante hasta su completa absorción.
+6. No enjuagar.
+
+🌸 Tip Asuka: Guarda la mascarilla en el refrigerador unos minutos antes de usarla. El efecto frío ayudará a refrescar la mirada, disminuir la hinchazón y potenciar la sensación de descanso. 💚🥝 💫`,
   },
   {
     id: 29,
@@ -748,7 +810,28 @@ Modo de uso:
     image: 'https://www.image2url.com/r2/default/images/1781378912557-96b925a3-635e-4dac-9c14-69369a492c08.jpg',
     stock: 10,
     category: 'Skincare',
-    description: 'Mascarillas para ojeras',
+    description: `Devuelve frescura y luminosidad a tu mirada con la Mascarilla para Ojeras Bubbaluu Cereza. Enriquecida con extracto de cereza, ayuda a hidratar profundamente el contorno de ojos mientras revitaliza la piel cansada y reduce la apariencia de ojeras y bolsas.
+Su fórmula refrescante proporciona una agradable sensación de bienestar, dejando la piel suave, luminosa y con una apariencia más descansada desde la primera aplicación.
+
+💖 Beneficios
+
+🍒 Ayuda a revitalizar y refrescar el contorno de ojos.
+🍒 Proporciona hidratación profunda y duradera.
+🍒 Contribuye a disminuir la apariencia de ojeras y bolsas.
+🍒 Favorece una mirada más luminosa y descansada.
+🍒 Ayuda a suavizar la piel delicada del área ocular.
+🍒 Ideal para todo tipo de piel.
+
+🧴 Modo de uso:
+
+1. Limpia y seca completamente el rostro.
+2. Coloca los parches debajo de los ojos.
+3. Deja actuar entre 15 y 20 minutos.
+4. Retira cuidadosamente la mascarilla.
+5. Masajea suavemente el sérum restante hasta su total absorción.
+6. No es necesario enjuagar.
+
+🌸 Tip Asuka: Utiliza la mascarilla antes de dormir o antes de un evento especial para lucir una mirada más fresca y radiante. Para una experiencia aún más revitalizante, refrigérala unos minutos antes de usarla. ✨🍒❤️`,
   },
   {
     id: 30,
@@ -766,7 +849,28 @@ Modo de uso:
     image: 'https://www.image2url.com/r2/default/images/1781378912557-96b925a3-635e-4dac-9c14-69369a492c08.jpg',
     stock: 10,
     category: 'Skincare',
-    description: 'Mascarillas para ojeras',
+    description: `Ilumina y revitaliza tu mirada con la Mascarilla para Ojeras Bubbaluu 24K Gold. Su fórmula enriquecida con partículas inspiradas en oro 24K ayuda a hidratar profundamente el contorno de ojos, aportando luminosidad y una apariencia más descansada.
+Ideal para combatir los signos de cansancio, esta mascarilla refresca la piel delicada bajo los ojos, ayudando a reducir visualmente bolsas, ojeras y líneas de expresión para una mirada más radiante y rejuvenecida.
+
+💖 Beneficios
+
+✨ Ayuda a iluminar el contorno de ojos.
+✨ Hidratación profunda y refrescante.
+✨ Disminuye la apariencia de ojeras y bolsas.
+✨ Favorece una mirada más descansada y luminosa.
+✨ Ayuda a suavizar líneas finas de expresión.
+✨ Apta para todo tipo de piel.
+
+🧴 Modo de uso:
+
+1. Limpia y seca completamente el rostro.
+2. Retira los parches del envase y colócalos debajo de los ojos.
+3. Deja actuar entre 15 y 20 minutos.
+4.Retira suavemente los parches.
+5. Masajea el sérum restante hasta su completa absorción.
+6. No es necesario enjuagar.
+
+🌸 Tip Asuka: Para potenciar el efecto descongestionante y refrescante, guarda la mascarilla en el refrigerador unos minutos antes de usarla. Perfecta antes de una reunión, evento o después de una noche de poco descanso. ✨ 👑 💛`,
   },
   {
     id: 32,
@@ -856,7 +960,7 @@ Reaplicar durante el día cuando desees renovar el aroma.
   },
   {
     id: 35,
-    name: 'Toallas humedas Frutilla',
+    name: 'Toallitas humedas Frutilla',
     price: 2400,
     image: 'https://www.image2url.com/r2/default/images/1781378843215-d43a0340-eaf1-4470-95fa-a5715d583a6e.jpg',
     stock: 10,
@@ -1172,5 +1276,262 @@ Esta bruma perfumada está diseñada para usarse en cuerpo y cabello, dejando un
 4. Reaplica durante el día para mantener la intensidad de la fragancia.
 
 🌸 Tip Asuka: Para una mayor duración del aroma, aplica Warm Vanilla Sugar sobre la piel humectada después de tu rutina corporal. También puedes perfumar ligeramente tu cabello para disfrutar de sus notas dulces y cremosas por más tiempo. Combínalo con una crema de vainilla o manteca corporal para potenciar aún más su fragancia.`,
+  },
+  {
+    id: 45,
+    name: 'Mascarillas Facial Cereza',
+    price: 1000,
+    image: '/mascarilla-cereza.png',
+    stock: 8,
+    category: 'Skincare',
+    description: `Disfruta una experiencia de cuidado facial revitalizante con la Mascarilla Facial Bubbaluu Cherry. Enriquecida con extracto de cereza, ayuda a hidratar, nutrir y refrescar la piel, aportando una apariencia más luminosa y saludable.
+Su fórmula inspirada en los beneficios antioxidantes de la cereza contribuye a proteger la piel de los factores externos, ayudando a mantenerla suave, flexible y con un aspecto radiante. Ideal para complementar tu rutina de skincare y regalarle a tu rostro un momento de cuidado y frescura.
+
+💖 Beneficios
+
+🍒 Ayuda a hidratar y nutrir la piel.
+🍒 Favorece una apariencia más luminosa y radiante.
+🍒 Contribuye a revitalizar la piel cansada o apagada.
+🍒 Ayuda a mantener la suavidad y elasticidad natural del rostro.
+🍒 Sus antioxidantes ayudan a proteger la piel frente a agresores externos.
+🍒 Apta para todo tipo de piel.
+
+🧴 Modo de Uso:
+
+1. Limpia y seca completamente tu rostro.
+2. Aplica una capa uniforme evitando ojos y labios.
+3 Deja actuar entre 10 y 15 minutos.
+4. Retira con abundante agua tibia.
+5. Finaliza con tu crema hidratante favorita.
+
+🌸 Tip Asuka: Para potenciar la sensación refrescante, guarda la mascarilla unos minutos en el refrigerador antes de usarla. Tu piel se sentirá más fresca, suave y revitalizada. ✨🍒❤️`,
+  },
+  {
+    id: 46,
+    name: 'Mascarillas Facial Mango',
+    price: 1000,
+    image: '/mascarilla-mango.png',
+    stock: 18,
+    category: 'Skincare',
+    description: `Disfruta una experiencia de cuidado facial tropical con la Mascarilla Facial Bubbaluu Mango. Enriquecida con extracto de mango, ayuda a hidratar, nutrir y revitalizar la piel, aportando una sensación de frescura y suavidad después de cada aplicación.
+Su fórmula está diseñada para complementar tu rutina de skincare, ayudando a mantener la piel luminosa, flexible y con una apariencia saludable. Gracias a los nutrientes naturales presentes en el mango, contribuye a mejorar el aspecto del rostro y brindar una sensación de bienestar y renovación.
+
+💖 Beneficios
+
+🥭 Ayuda a hidratar y nutrir la piel.
+🥭 Favorece una apariencia más luminosa y saludable.
+🥭 Aporta suavidad y frescura al rostro.
+🥭 Contribuye a revitalizar la piel cansada o apagada.
+🥭 Ayuda a mejorar la textura y elasticidad de la piel.
+🥭 Apta para todo tipo de piel.
+
+🧴 Modo de Uso:
+
+1. Limpia y seca completamente tu rostro.
+2. Aplica una capa uniforme evitando el área de ojos y labios.
+3. Deja actuar entre 10 y 15 minutos.
+4. Retira con abundante agua tibia.
+5. Finaliza aplicando tu crema hidratante habitual.
+
+🌸 Tip Asuka: Utiliza esta mascarilla cuando tu piel necesite un extra de nutrición y luminosidad. Para una experiencia aún más refrescante, refrigérala unos minutos antes de usarla y disfruta de un verdadero momento de spa en casa. ✨🥭🧡`,
+  },
+  {
+    id: 47,
+    name: 'Mascarillas Facial Frutilla',
+    price: 1000,
+    image: '/mascarilla-frutilla.png',
+    stock: 14,
+    category: 'Skincare',
+    description: `Disfruta una experiencia de cuidado facial llena de frescura con la Mascarilla Facial Bubbaluu Frutilla. Enriquecida con extracto de frutilla, ayuda a hidratar, revitalizar y suavizar la piel, aportando una sensación refrescante y una apariencia más luminosa y saludable.
+Su fórmula está diseñada para complementar tu rutina de skincare, ayudando a mantener la piel nutrida y con un aspecto radiante. Gracias a sus propiedades antioxidantes, contribuye a proteger la piel de los factores externos mientras mejora su textura y suavidad.
+
+💖 Beneficios
+
+🍓 Ayuda a hidratar y revitalizar la piel.
+🍓 Favorece una apariencia más luminosa y saludable.
+🍓 Aporta suavidad y frescura al rostro.
+🍓 Rica en antioxidantes que ayudan a proteger la piel.
+🍓 Contribuye a mejorar la textura y apariencia de la piel.
+🍓 Apta para todo tipo de piel.
+
+🧴 Modo de Uso:
+1. Limpia y seca completamente tu rostro.
+2. Aplica una capa uniforme evitando el área de ojos y labios.
+3.bDeja actuar entre 10 y 15 minutos.
+4.Retira con abundante agua tibia.
+5. Finaliza aplicando tu crema hidratante habitual.
+
+🌸 Tip Asuka: Utiliza esta mascarilla cuando tu piel necesite un extra de hidratación y luminosidad. Para una sensación aún más refrescante, refrigérala unos minutos antes de usarla y disfruta de una experiencia tipo spa en casa. ✨🍓❤️`,
+  },
+  {
+    id: 48,
+    name: 'Mascarillas Facial Piña',
+    price: 1000,
+    image: '/mascarilla-pina.png',
+    stock: 15,
+    category: 'Skincare',
+    description: `Disfruta una experiencia refrescante y revitalizante con la Mascarilla Facial Bubbaluu Piña. Enriquecida con extracto de piña, ayuda a hidratar y nutrir la piel mientras aporta frescura y luminosidad al rostro. Su fórmula está diseñada para complementar tu rutina de skincare, dejando la piel suave, renovada y con una apariencia saludable.
+Gracias a las propiedades naturales de la piña, esta mascarilla ayuda a revitalizar la piel cansada y a mejorar su aspecto, brindando una agradable sensación de bienestar en cada aplicación.
+
+💖 Beneficios
+🍍 Ayuda a hidratar y nutrir la piel.
+🍍 Favorece una apariencia más luminosa y saludable.
+🍍 Aporta frescura y suavidad al rostro.
+🍍 Ayuda a revitalizar la piel opaca o cansada.
+🍍 Contribuye a mejorar la textura y apariencia de la piel.
+🍍 Apta para todo tipo de piel.
+
+🧴 Modo de Uso:
+
+1 Limpia y seca completamente tu rostro.
+2. Aplica una capa uniforme evitando el área de ojos y labios.
+3. Deja actuar entre 10 y 15 minutos.
+4. Retira con abundante agua tibia.
+5. Finaliza aplicando tu crema hidratante habitual.
+
+🌸 Tip Asuka: Utiliza la mascarilla después de una larga jornada o cuando tu piel necesite un extra de frescura. Para una experiencia aún más revitalizante, refrigérala unos minutos antes de usarla. ✨🍍💛`,
+  },
+  {
+    id: 49,
+    name: 'Mascarillas Facial Sandia',
+    price: 1000,
+    image: '/mascarilla-sandia.png',
+    stock: 19,
+    category: 'Skincare',
+    description: `Refresca y revitaliza tu piel con la Mascarilla Facial Bubbaluu Sandía. Enriquecida con extracto de sandía, esta mascarilla ayuda a hidratar profundamente el rostro, aportando frescura y nutrición para una apariencia más luminosa y saludable.
+Su fórmula ligera proporciona una agradable sensación refrescante mientras ayuda a suavizar la piel y mantener su hidratación natural. Ideal para complementar tu rutina de skincare y disfrutar de un momento de relajación y cuidado personal.
+
+💖 Beneficios
+
+🍉 Ayuda a hidratar y nutrir la piel.
+🍉 Aporta frescura y suavidad al rostro.
+🍉 Favorece una apariencia más luminosa y saludable.
+🍉 Ayuda a revitalizar la piel cansada o deshidratada.
+🍉 Contribuye a mejorar la textura y elasticidad de la piel.
+🍉 Apta para todo tipo de piel.
+
+🧴 Modo de Uso:
+
+1. Limpia y seca completamente tu rostro.
+2. Aplica una capa uniforme evitando el área de ojos y labios.
+3. Deja actuar entre 10 y 15 minutos.
+4. Retira con abundante agua tibia.
+5. Finaliza aplicando tu crema hidratante favorita.
+
+🌸 Tip Asuka: Para potenciar su efecto refrescante, conserva la mascarilla en el refrigerador antes de usarla. Ideal para utilizar después de un día caluroso o cuando tu piel necesite un extra de hidratación y frescura. ✨🍉🩷💚`,
+  },
+  {
+    id: 50,
+    name: 'Mascarillas Facial Tuttifrutti',
+    price: 1000,
+    image: '/mascarilla-tuttifrutti.png',
+    stock: 9,
+    category: 'Skincare',
+    description: `Disfruta una explosión de frescura y color con la Mascarilla Facial Bubbaluu Tutti Frutti. Inspirada en una mezcla de frutas cuidadosamente seleccionadas, esta mascarilla ayuda a hidratar, revitalizar y refrescar la piel, aportando nutrientes que contribuyen a mantener un rostro suave, luminoso y saludable.
+Su fórmula combina el poder de los extractos frutales para brindar una experiencia de cuidado facial única, ayudando a mejorar la apariencia de la piel y devolviéndole vitalidad. Ideal para complementar tu rutina de skincare y disfrutar de un momento de relajación mientras cuidas tu rostro.
+
+💖 Beneficios
+
+🍬 Ayuda a revitalizar y refrescar la piel.
+🍬 Proporciona hidratación y suavidad.
+🍬 Favorece una apariencia más luminosa y saludable.
+🍬 Aporta nutrientes provenientes de extractos frutales.
+🍬 Ayuda a mejorar la textura y apariencia del rostro.
+🍬 Apta para todo tipo de piel.
+
+🧴 Modo de Uso:
+
+1. Limpia y seca completamente tu rostro.
+2. Aplica una capa uniforme evitando el área de ojos y labios.
+3. Deja actuar durante 10 a 15 minutos.
+4. Retira con abundante agua tibia.
+5. Finaliza aplicando tu crema hidratante habitual.
+
+🌸 Tip Asuka: Utiliza esta mascarilla cuando tu piel necesite un extra de frescura y luminosidad. Para una experiencia aún más agradable, refrigérala unos minutos antes de usarla y disfruta de una sensación revitalizante. ✨🍬🩷`,
+  },
+  {
+    id: 51,
+    name: 'Mascarillas Facial Uva',
+    price: 1000,
+    image: '/mascarilla-uva.png',
+    stock: 15,
+    category: 'Skincare',
+    description: `Descubre la Mascarilla Facial Bubbaluu Uva, una experiencia de cuidado facial inspirada en los beneficios naturales de la uva. Su fórmula ayuda a hidratar, refrescar y revitalizar la piel, aportando una agradable sensación de suavidad y bienestar desde la primera aplicación.
+Gracias a sus propiedades antioxidantes, contribuye a proteger la piel de los factores externos mientras ayuda a mantener una apariencia luminosa, fresca y saludable. Su textura ligera y fácil aplicación la convierten en el complemento ideal para tu rutina de skincare.
+Perfecta para quienes buscan una piel más hidratada, radiante y con un aspecto renovado día tras día.
+
+💖 Beneficios
+
+🍇 Ayuda a revitalizar y refrescar la piel.
+🍇 Proporciona hidratación y suavidad.
+🍇 Favorece una apariencia más luminosa y saludable.
+🍇 Rica en antioxidantes que ayudan a proteger la piel.
+🍇 Ayuda a mejorar la textura y apariencia del rostro.
+🍇 Apta para todo tipo de piel.
+
+🧴 Modo de Uso
+
+1. Limpia y seca completamente tu rostro.
+2. Aplica una capa uniforme evitando el área de ojos y labios.
+3. Deja actuar durante 10 a 15 minutos.
+4. Retira con abundante agua tibia.
+5. Finaliza aplicando tu crema hidratante habitual.
+
+🌸 Tip Asuka: Para potenciar la sensación de frescura, refrigera la mascarilla unos minutos antes de usarla. Úsala de 2 a 3 veces por semana para mantener tu piel hidratada, suave y radiante. ✨ 🍇💜`,
+  },
+  {
+    id: 52,
+    name: 'Mascarillas Facial Naranja',
+    price: 1000,
+    image: '/mascarilla-naranja.png',
+    stock: 18,
+    category: 'Skincare',
+    description: `Ilumina y revitaliza tu piel con la Mascarilla Facial Bubbaluu Vitamina C. Su fórmula enriquecida con Vitamina C ayuda a aportar luminosidad, frescura e hidratación al rostro, dejando la piel con una apariencia más uniforme y radiante. Ideal para complementar tu rutina de skincare y devolverle vitalidad a la piel opaca o cansada.
+
+💖 Beneficios
+
+🍊 Ayuda a iluminar y revitalizar la piel.
+🍊 Favorece una apariencia más radiante y uniforme.
+🍊 Proporciona hidratación y suavidad al rostro.
+🍊 Ayuda a combatir los efectos del cansancio y factores ambientales.🍊 Deja la piel fresca, luminosa y con sensación de bienestar.
+🍊 Apta para todo tipo de piel.
+
+🧴 Modo de Uso:
+
+1. Limpia y seca completamente tu rostro.
+2. Aplica una capa uniforme de mascarilla evitando el área de ojos y labios.
+3. Deja actuar entre 10 y 15 minutos.
+4. Retira con abundante agua tibia.
+5. Finaliza aplicando tu crema hidratante favorita.
+
+🌸 Tip Asuka: Utiliza esta mascarilla antes de un evento especial o cuando quieras darle un extra de luminosidad a tu piel. Para potenciar el efecto refrescante, mantenla refrigerada unos minutos antes de usarla. ✨🍊🧡`,
+  },{
+    id: 53,
+    name: 'Mascarillas Facial Arandano',
+    price: 1000,
+    image: '/mascarilla-arandano.png',
+    stock: 16,
+    category: 'Skincare',
+    description: `Disfruta una experiencia de cuidado facial refrescante con la Mascarilla Facial Bubbaluu Arándano. Enriquecida con extracto de arándano, ayuda a revitalizar la piel, aportando hidratación y una agradable sensación de frescura. Su fórmula está diseñada para dejar el rostro suave, luminoso y con una apariencia saludable.
+Los antioxidantes naturales del arándano ayudan a proteger la piel de las agresiones externas, convirtiéndola en una excelente opción para complementar tu rutina de skincare.
+
+💖 Beneficios
+
+🫐 Ayuda a revitalizar y refrescar la piel.
+🫐 Proporciona hidratación y suavidad al rostro.
+🫐 Favorece una apariencia más luminosa y saludable.
+🫐 Contribuye a proteger la piel gracias a sus antioxidantes naturales.
+🫐 Ayuda a mejorar la sensación de frescura y bienestar.
+🫐 Apta para todo tipo de piel.
+
+🧴 Modo de uso:
+
+1. Limpia y seca completamente tu rostro.
+2. Aplica una capa uniforme de mascarilla evitando el área de ojos y labios.
+3 Deja actuar entre 10 y 15 minutos.
+4. Retira con abundante agua tibia.
+5. Continúa con tu crema hidratante habitual para potenciar los resultados.
+
+🌸 Tip Asuka: Para una sensación extra refrescante, guarda la mascarilla en el refrigerador unos minutos antes de usarla. Úsala 2 a 3 veces por semana para mantener tu piel hidratada, luminosa y con un aspecto saludable. ✨🫐💙`,
   },
 ];
