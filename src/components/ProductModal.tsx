@@ -57,7 +57,7 @@ export default function ProductModal({ product, isOpen, onClose, onAddToCart }: 
 
         <div className="mb-6">
           <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Descripción</h3>
-          <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{product.description}</p>
+          <p className="text-gray-600 dark:text-gray-400 leading-relaxed whitespace-pre-line">{product.description}</p>
         </div>
 
         <button
