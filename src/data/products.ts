@@ -95,7 +95,7 @@ Modo de uso:
     name: 'Balsamo Labial Durazno',
     price: 1500,
     image: 'https://www.image2url.com/r2/default/images/1780887815311-7d3332fc-a141-4766-8657-db0d4ad33ec9.png',
-    stock: 10,
+    stock: 0,
     category: 'Skincare',
     description: 'Bálsamo labial con aroma a durazno para labios suaves e hidratados.',
   },
@@ -104,7 +104,7 @@ Modo de uso:
     name: 'Balsamo Labial Uva',
     price: 1500,
     image: 'https://www.image2url.com/r2/default/images/1780887867651-b2735414-0459-49b1-97bc-bc256bceac7d.png',
-    stock: 10,
+    stock: 0,
     category: 'Skincare',
     description: 'Bálsamo labial con aroma a uva para labios suaves e hidratados.',
   },
@@ -114,7 +114,7 @@ Modo de uso:
     name: 'Balsamo Labial Frutilla',
     price: 1500,
     image: 'https://www.image2url.com/r2/default/images/1780887900959-83dd8c24-dab9-4d7b-903f-3f6c5145e400.png',
-    stock: 10,
+    stock: 4,
     category: 'Skincare',
     description: 'Bálsamo labial con aroma a frutilla para labios suaves e hidratados.',
   },
@@ -404,7 +404,7 @@ Modo de uso:
     name: 'Exfoliante Capilar FRUTILLA',
     price: 7200,
     image: 'https://www.image2url.com/r2/default/images/1781128406022-46636be6-bce0-4ffa-bca6-3d8a9ec76f68.png',
-    stock: 40,
+    stock: 0,
     category: 'Capilar',
     description: `Disfruta de una limpieza profunda y una experiencia deliciosa con el Exfoliante Capilar Bubbaluu Aroma Frutilla. Su fórmula ayuda a remover impurezas, residuos de productos y células muertas acumuladas en el cuero cabelludo, dejando una agradable sensación de frescura y limpieza.
 Su exquisito aroma a frutilla transforma tu rutina capilar en un momento de cuidado y bienestar, ayudando a que tu cabello luzca más ligero, saludable y revitalizado desde la raíz.
@@ -435,7 +435,7 @@ Su exquisito aroma a frutilla transforma tu rutina capilar en un momento de cuid
     name: 'Exfoliante Capilar UVA',
     price: 7200,
     image: 'https://www.image2url.com/r2/default/images/1781128434968-d2eab686-42dc-4fd6-a717-bf94cba589c5.png',
-    stock: 18,
+    stock: 0,
     category: 'Capilar',
     description: `Renueva tu rutina capilar con el Exfoliante Capilar Bubbaluu Aroma Uva. Su fórmula está diseñada para ayudar a eliminar impurezas, residuos de productos y células muertas acumuladas en el cuero cabelludo, proporcionando una limpieza profunda y una agradable sensación de frescura.
 Su delicioso aroma a uva convierte cada aplicación en una experiencia sensorial única, mientras ayuda a mantener un cuero cabelludo limpio y un cabello con aspecto más saludable, ligero y revitalizado.
@@ -603,7 +603,7 @@ Utiliza diariamente para disfrutar de una piel limpia, fresca y perfumada.
     name: 'Limpiador Facial de COLAGENO',
     price: 4400,
     image: 'https://www.image2url.com/r2/default/images/1781377952961-48db5071-9d0a-4aae-b205-d05233ec90b2.png',
-    stock: 50,
+    stock: 0,
     category: 'Skincare',
     description: `Disfruta de una limpieza profunda y delicada con el Limpiador Facial Hidratante Bubbaluu, enriquecido con colágeno y ácido hialurónico. Su fórmula ayuda a eliminar eficazmente el exceso de grasa, impurezas, restos de maquillaje y suciedad acumulada durante el día, dejando la piel fresca, limpia y confortable.
 Su espuma suave proporciona una experiencia de limpieza agradable mientras ayuda a mantener la hidratación natural de la piel, evitando la sensación de resequedad o tirantez. Ideal para incorporar en tu rutina diaria de cuidado facial.
