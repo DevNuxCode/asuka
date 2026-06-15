@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Cart from './components/Cart';
 import ScrollToTop from './components/ScrollToTop';
 import { ThemeProvider } from './context/ThemeContext';
+import { Analytics } from "@vercel/analytics/next"
 
 
 export interface CartItem {
@@ -53,6 +54,7 @@ function App() {
   return (
     <ThemeProvider>
       <div className="min-h-screen transition-colors duration-300 bg-[#F7E7E5] dark:bg-[#1a1a1a]">
+        <Analytics />
         <Navbar
           cartCount={cart.length}
           onCartClick={() => setShowCart(!showCart)}
