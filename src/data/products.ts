@@ -994,7 +994,7 @@ Su fórmula ligera está diseñada para usarse en cuerpo y cabello, proporcionan
     id: 37,
     name: 'Body Mist Bath & Body Works Champagne Toast',
     price: 9500,
-    image: '/body_mist_champagne_toast.jpg',
+    image: 'https://www.image2url.com/r2/default/images/1781562752244-5ff565a4-cb85-4204-bb45-41ab82301e11.jpg',
     stock: 10,
     category: 'Fragancias', 
     description: `Celebra cada día con Champagne Toast Body Mist Mini, una fragancia vibrante, dulce y efervescente que transforma cualquier momento en una ocasión especial. Inspirada en el brillo de una copa de champaña y la frescura de las frutas cítricas, esta bruma perfumada envuelve tu piel y cabello con un aroma alegre, femenino y lleno de energía.
@@ -1058,7 +1058,7 @@ Diseñado para utilizar tanto en el cuerpo como en el cabello, este body mist de
     id: 54,
     name: 'Body Mist Bath & Body Works Japanese Cherry',
     price: 9500,
-    image: '/body_mist_japanese_cherry.jpg',
+    image: 'https://www.image2url.com/r2/default/images/1781563038737-07d8b6d3-094e-41aa-921d-4e4e68166e29.jpg',
     stock: 8,
     category: 'Fragancias', 
     description: `Descubre la elegancia atemporal de Japanese Cherry Blossom, una de las fragancias más icónicas de Bath & Body Works. Su exquisita combinación de flores delicadas y notas suaves crea un aroma femenino, romántico y sofisticado que acompaña cada momento con un toque de belleza natural.
@@ -1092,7 +1092,7 @@ Esta bruma perfumada está diseñada para usarse tanto en cuerpo como en cabello
     id: 39,
     name: 'Body Mist Bath & Body Works Dreaming of Rio',
     price: 9500,
-    image: '/body_mist_dreaming_of_rio.jpg',
+    image: 'https://www.image2url.com/r2/default/images/1781562756634-cd05297a-e2ea-4ab7-963d-ede7169d3c35.jpg',
     stock: 8,
     category: 'Fragancias', 
     description: `Escápate a las playas soleadas de Río de Janeiro con Dreaming of Rio Body Mist Mini, una fragancia dulce, floral y cálida inspirada en la energía, belleza y encanto de Brasil. Su exquisita combinación de notas tropicales envuelve tu piel y cabello con un aroma femenino, acogedor y lleno de personalidad.
@@ -1123,7 +1123,7 @@ Diseñado para usar tanto en el cuerpo como en el cabello, este body mist propor
     id: 40,
     name: 'Body Mist Bath & Body Works In the Stars',
     price: 9500,
-    image: '/body_mist_in_the_stars.jpg',
+    image: 'https://www.image2url.com/r2/default/images/1781562762851-973896b8-4754-46b8-8c93-5672cec6e622.jpg',
     stock: 4,
     category: 'Fragancias', 
     description: `Déjate envolver por la magia de In The Stars Body Mist Mini, una fragancia cálida, luminosa y sofisticada inspirada en los momentos que brillan como las estrellas. Su exquisita combinación de notas dulces, amaderadas y ambaradas crea un aroma elegante y envolvente que destaca por su feminidad y personalidad única.
@@ -1158,7 +1158,7 @@ Esta bruma perfumada está diseñada para usarse en cuerpo y cabello, proporcion
     id: 41,
     name: 'Body Mist Bath & Body Works Into the night',
     price: 9500,
-    image: '/body_mist_into_the_night.jpg',
+    image: 'https://www.image2url.com/r2/default/images/1781562762851-973896b8-4754-46b8-8c93-5672cec6e622.jpg',
     stock: 12,
     category: 'Fragancias', 
     description: `Déjate envolver por el misterio y la elegancia de Into The Night Body Mist Mini. Esta sofisticada bruma perfumada captura la esencia de una noche inolvidable, combinando notas frutales oscuras, flores aterciopeladas y acordes cálidos que crean una fragancia intensa, femenina y cautivadora.
@@ -1191,7 +1191,7 @@ Diseñada para usarse en cuerpo y cabello, su fórmula ligera refresca y perfuma
     id: 42,
     name: 'Body Mist Bath & Body Works Rose',
     price: 9500,
-    image: '/body_mist_rose.jpg',
+    image: 'https://www.image2url.com/r2/default/images/1781562764452-0e6bea50-8cc0-4e4b-bae2-94243b6ceab5.jpg',
     stock: 6,
     category: 'Fragancias', 
     description: `Déjate envolver por la delicadeza de Rose Fine Fragrance Mist, una fragancia floral fresca, ligera y elegante que captura la esencia de un jardín de rosas recién florecidas. Su aroma limpio y romántico combina suaves notas florales con un toque de almizcle cremoso, creando una experiencia femenina y sofisticada para el día a día.
@@ -1223,7 +1223,7 @@ Esta bruma perfumada está diseñada para usarse en cuerpo y cabello, dejando un
     id: 43,
     name: 'Body Mist Bath & Body Viva Brazil',
     price: 9500,
-    image: '/body_mist_viva_brazil.jpg',
+    image: 'https://www.image2url.com/r2/default/images/1781562766216-3df6b01f-6955-4cf9-896a-70d47ec8ea0f.jpg',
     stock: 16,
     category: 'Fragancias', 
     description: `Déjate envolver por la energía tropical de Viva Brazil Body Mist Mini, una fragancia inspirada en los vibrantes paisajes y aromas de Brasil. Su combinación de notas frutales y refrescantes crea un aroma alegre, femenino y lleno de vitalidad, perfecto para quienes aman las fragancias dulces con un toque fresco y exótico.
@@ -1252,7 +1252,7 @@ Su práctico formato mini es ideal para llevar en la cartera, mochila o cosmetiq
     id: 44,
     name: 'Body Mist Bath & Body Vainilla',
     price: 9500,
-    image: '/body_mist_warm_vainilla.jpg',
+    image: 'https://www.image2url.com/r2/default/images/1781562768613-5b4d5b10-9442-4177-b93b-31d29caef400.jpg',
     stock: 8,
     category: 'Fragancias', 
     description: `Disfruta de la dulzura reconfortante de Warm Vanilla Sugar Body Mist Mini, una fragancia cálida, cremosa y envolvente que transforma cada aplicación en un momento de bienestar. Su exquisita combinación de vainilla, flores suaves y notas amaderadas crea un aroma dulce y elegante, perfecto para quienes aman las fragancias acogedoras y femeninas.
