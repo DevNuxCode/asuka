@@ -1518,7 +1518,7 @@ Perfecta para quienes buscan una piel más hidratada, radiante y con un aspecto 
     id: 52,
     name: 'Mascarillas Facial Naranja',
     price: 1000,
-    image: '/mascarilla-naranja.png',
+    image: '/vitaminac.png',
     stock: 18,
     category: 'Skincare',
     description: `Ilumina y revitaliza tu piel con la Mascarilla Facial Bubbaluu Vitamina C. Su fórmula enriquecida con Vitamina C ayuda a aportar luminosidad, frescura e hidratación al rostro, dejando la piel con una apariencia más uniforme y radiante. Ideal para complementar tu rutina de skincare y devolverle vitalidad a la piel opaca o cansada.
