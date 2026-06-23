@@ -1025,7 +1025,7 @@ Su fórmula ligera está diseñada para usarse tanto en el cuerpo como en el cab
     id: 38,
     name: 'Body Mist Bath & Body Works Costa Rica',
     price: 9500,
-    image: '/body_mist_costa_rica.jpg',
+    image: 'https://www.image2url.com/r2/default/images/1782254306551-3f259a0b-bc3b-4d0f-ac23-eac1f712564a.jpg',
     stock: 0,
     category: 'Fragancias', 
     description: `Despierta tus sentidos con Pink Pineapple Sunrise Body Mist Mini, una fragancia tropical inspirada en los cálidos amaneceres del paraíso. Su delicioso aroma combina notas dulces y frutales que evocan la frescura de una piña rosada recién cortada bajo el sol, creando una experiencia alegre, luminosa y refrescante.
@@ -1287,7 +1287,7 @@ Esta bruma perfumada está diseñada para usarse en cuerpo y cabello, dejando un
     id: 45,
     name: 'Mascarillas Facial Cereza',
     price: 1000,
-    image: '/mascarilla-cereza.png',
+    image: 'https://www.image2url.com/r2/default/images/1782254274600-8aa15f88-7fa1-48f2-b138-cb9718fa626b.png',
     stock: 8,
     category: 'Skincare',
     description: `Disfruta una experiencia de cuidado facial revitalizante con la Mascarilla Facial Bubbaluu Cherry. Enriquecida con extracto de cereza, ayuda a hidratar, nutrir y refrescar la piel, aportando una apariencia más luminosa y saludable.
@@ -1345,7 +1345,7 @@ Su textura ligera permite una aplicación cómoda, proporcionando una agradable 
     id: 46,
     name: 'Mascarillas Facial Mango',
     price: 1000,
-    image: '/mascarilla-mango.png',
+    image: 'https://www.image2url.com/r2/default/images/1782254279129-20665cf9-bb93-4088-9fce-55005687a797.png',
     stock: 18,
     category: 'Skincare',
     description: `Disfruta una experiencia de cuidado facial tropical con la Mascarilla Facial Bubbaluu Mango. Enriquecida con extracto de mango, ayuda a hidratar, nutrir y revitalizar la piel, aportando una sensación de frescura y suavidad después de cada aplicación.
@@ -1374,7 +1374,7 @@ Su fórmula está diseñada para complementar tu rutina de skincare, ayudando a 
     id: 47,
     name: 'Mascarillas Facial Frutilla',
     price: 1000,
-    image: '/mascarilla-frutilla.png',
+    image: 'https://www.image2url.com/r2/default/images/1782254275890-daff19b3-e4e6-4819-94f6-3331fab3a887.png',
     stock: 14,
     category: 'Skincare',
     description: `Disfruta una experiencia de cuidado facial llena de frescura con la Mascarilla Facial Bubbaluu Frutilla. Enriquecida con extracto de frutilla, ayuda a hidratar, revitalizar y suavizar la piel, aportando una sensación refrescante y una apariencia más luminosa y saludable.
@@ -1402,7 +1402,7 @@ Su fórmula está diseñada para complementar tu rutina de skincare, ayudando a 
     id: 48,
     name: 'Mascarillas Facial Piña',
     price: 1000,
-    image: '/mascarilla-pina.png',
+    image: 'https://www.image2url.com/r2/default/images/1782254280202-fe507dc4-cd80-4ad3-82c6-9e572f5510d4.png',
     stock: 15,
     category: 'Skincare',
     description: `Disfruta una experiencia refrescante y revitalizante con la Mascarilla Facial Bubbaluu Piña. Enriquecida con extracto de piña, ayuda a hidratar y nutrir la piel mientras aporta frescura y luminosidad al rostro. Su fórmula está diseñada para complementar tu rutina de skincare, dejando la piel suave, renovada y con una apariencia saludable.
@@ -1430,7 +1430,7 @@ Gracias a las propiedades naturales de la piña, esta mascarilla ayuda a revital
     id: 49,
     name: 'Mascarillas Facial Sandia',
     price: 1000,
-    image: '/mascarilla-sandia.png',
+    image: 'https://www.image2url.com/r2/default/images/1782254285903-c996adf8-d6b0-4ed3-9fd5-a55d4b1f8ee6.png',
     stock: 19,
     category: 'Skincare',
     description: `Refresca y revitaliza tu piel con la Mascarilla Facial Bubbaluu Sandía. Enriquecida con extracto de sandía, esta mascarilla ayuda a hidratar profundamente el rostro, aportando frescura y nutrición para una apariencia más luminosa y saludable.
@@ -1459,7 +1459,7 @@ Su fórmula ligera proporciona una agradable sensación refrescante mientras ayu
     id: 50,
     name: 'Mascarillas Facial Tuttifrutti',
     price: 1000,
-    image: '/mascarilla-tuttifrutti.png',
+    image: 'https://www.image2url.com/r2/default/images/1782254289162-1e7ba490-6cd9-4931-800d-b56287b2e199.png',
     stock: 9,
     category: 'Skincare',
     description: `Disfruta una explosión de frescura y color con la Mascarilla Facial Bubbaluu Tutti Frutti. Inspirada en una mezcla de frutas cuidadosamente seleccionadas, esta mascarilla ayuda a hidratar, revitalizar y refrescar la piel, aportando nutrientes que contribuyen a mantener un rostro suave, luminoso y saludable.
@@ -1488,7 +1488,7 @@ Su fórmula combina el poder de los extractos frutales para brindar una experien
     id: 51,
     name: 'Mascarillas Facial Uva',
     price: 1000,
-    image: '/mascarilla-uva.png',
+    image: 'https://www.image2url.com/r2/default/images/1782254290395-547369cc-ea28-4652-a466-b692e9766a0c.png',
     stock: 15,
     category: 'Skincare',
     description: `Descubre la Mascarilla Facial Bubbaluu Uva, una experiencia de cuidado facial inspirada en los beneficios naturales de la uva. Su fórmula ayuda a hidratar, refrescar y revitalizar la piel, aportando una agradable sensación de suavidad y bienestar desde la primera aplicación.
@@ -1544,7 +1544,7 @@ Perfecta para quienes buscan una piel más hidratada, radiante y con un aspecto 
     id: 53,
     name: 'Mascarillas Facial Arandano',
     price: 1000,
-    image: '/mascarilla-arandano.png',
+    image: 'https://www.image2url.com/r2/default/images/1782254273098-089c5d46-91b1-4d77-9307-1915d0958e8b.png',
     stock: 16,
     category: 'Skincare',
     description: `Disfruta una experiencia de cuidado facial refrescante con la Mascarilla Facial Bubbaluu Arándano. Enriquecida con extracto de arándano, ayuda a revitalizar la piel, aportando hidratación y una agradable sensación de frescura. Su fórmula está diseñada para dejar el rostro suave, luminoso y con una apariencia saludable.
