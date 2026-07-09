@@ -38,6 +38,15 @@ function renderContent(content: string) {
         </h3>
       );
     }
+        if (line.trim() === '---') {
+        return (
+          <div key={index} className="flex items-center my-10">
+            <div className="flex-1 h-px bg-gray-200 dark:bg-gray-700"></div>
+            <div className="w-2 h-2 mx-4 rounded-full bg-[#CBA135]"></div>
+            <div className="flex-1 h-px bg-gray-200 dark:bg-gray-700"></div>
+          </div>
+        );
+      }
     
     if (line.startsWith('- ')) {
       return (
