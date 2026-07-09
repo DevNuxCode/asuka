@@ -1,26 +1,14 @@
-import { blogPosts, BlogCategory, blogCategories, BlogPost } from '../data/blog';
+import { Link } from 'react-router-dom';
+import { blogPosts, BlogCategory, blogCategories } from '../data/blog';
 import { useState } from 'react';
 import { ChevronRight } from 'lucide-react';
-import BlogModal from './BlogModal';
 
 export default function Blog() {
   const [selectedCategory, setSelectedCategory] = useState<BlogCategory>('Todos');
-  const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const filtered = selectedCategory === 'Todos'
     ? blogPosts
     : blogPosts.filter(post => post.category === selectedCategory);
-
-  const openBlogModal = (post: BlogPost) => {
-    setSelectedPost(post);
-    setIsModalOpen(true);
-  };
-
-  const closeBlogModal = () => {
-    setIsModalOpen(false);
-    setSelectedPost(null);
-  };
 
   return (
     <section id="blog" className="py-20 px-4" style={{ backgroundColor: '#F7E7E5' }}>
@@ -47,10 +35,10 @@ export default function Blog() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filtered.map(post => (
-            <article
+            <Link
               key={post.id}
-              className="group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition transform hover:-translate-y-2 bg-white dark:bg-[#1a1a1a] cursor-pointer"
-              onClick={() => openBlogModal(post)}
+              to={`/blog/${post.slug}`}
+              className="group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition transform hover:-translate-y-2 bg-white dark:bg-[#1a1a1a] cursor-pointer block"
             >
               <div className="relative h-48 bg-gray-100 dark:bg-[#2d2d2d] overflow-hidden">
                 <img
@@ -86,15 +74,9 @@ export default function Blog() {
                   </div>
                 </div>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
-
-        <BlogModal
-          post={selectedPost}
-          isOpen={isModalOpen}
-          onClose={closeBlogModal}
-        />
       </div>
     </section>
   );

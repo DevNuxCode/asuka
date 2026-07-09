@@ -1,15 +1,13 @@
 import { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Products from './components/Products';
-import Testimonials from './components/Testimonials';
-import Blog from './components/Blog';
 import Footer from './components/Footer';
 import Cart from './components/Cart';
 import ScrollToTop from './components/ScrollToTop';
+import Home from './pages/Home';
+import BlogPostPage from './pages/BlogPostPage';
 import { ThemeProvider } from './context/ThemeContext';
-
-
+import useHashScroll from './hooks/useHashScroll';
 
 export interface CartItem {
   id: number;
@@ -22,6 +20,8 @@ export interface CartItem {
 function App() {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [showCart, setShowCart] = useState(false);
+
+  useHashScroll();
 
   const addToCart = (id: number, name: string, price: number, image: string) => {
     setCart(prev => {
@@ -54,24 +54,26 @@ function App() {
   return (
     <ThemeProvider>
       <div className="min-h-screen transition-colors duration-300 bg-[#F7E7E5] dark:bg-[#1a1a1a]">
-        
+
         <Navbar
           cartCount={cart.length}
           onCartClick={() => setShowCart(!showCart)}
         />
-      {showCart && (
-        <Cart
-          cart={cart}
-          onClose={() => setShowCart(false)}
-          onRemove={removeFromCart}
-          onUpdateQuantity={updateQuantity}
-        />
-      )}
-      
-      <Hero />
-      <Products onAddToCart={addToCart} />
-      <Testimonials />
-      <Blog />
+        {showCart && (
+          <Cart
+            cart={cart}
+            onClose={() => setShowCart(false)}
+            onRemove={removeFromCart}
+            onUpdateQuantity={updateQuantity}
+          />
+        )}
+
+        <Routes>
+          <Route path="/" element={<Home onAddToCart={addToCart} />} />
+          <Route path="/blog/:slug" element={<BlogPostPage />} />
+          <Route path="/blog" element={<Home onAddToCart={addToCart} />} />
+        </Routes>
+
         <Footer />
         <ScrollToTop />
       </div>

@@ -1,5 +1,6 @@
 import { ShoppingCart, Menu, X, Moon, Sun } from 'lucide-react';
 import { useState } from 'react';
+import { useNavigate, useLocation, Link } from 'react-router-dom';
 import { useTheme } from '../context/ThemeContext';
 import logoLight from '../../public/LogoIA.png';
 import logoDark from '../../public/LogoIA-white.png'
@@ -12,19 +13,25 @@ interface NavbarProps {
 export default function Navbar({ cartCount, onCartClick }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
+  const navigate = useNavigate();
+  const location = useLocation();
 
+  // Works from any page: if we're already on the home page, just scroll;
+  // otherwise navigate home first, then scroll once the section exists.
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    element?.scrollIntoView({ behavior: 'smooth' });
     setMobileMenuOpen(false);
+    if (location.pathname === '/') {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      navigate(`/#${id}`);
+    }
   };
 
   return (
     <nav className="fixed w-full top-0 z-50 backdrop-blur-md bg-white bg-opacity-95 dark:bg-[#2d2d2d] dark:bg-opacity-95 border-b border-primary dark:border-[#CBA135] transition-colors duration-300">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
-        <div className="flex items-center gap-2 cursor-pointer">
-          
-          
+        <Link to="/" className="flex items-center gap-2 cursor-pointer">
+
                    {/* Logo Light */}
             <img
               src={logoLight}
@@ -50,7 +57,7 @@ export default function Navbar({ cartCount, onCartClick }: NavbarProps) {
             />
 
           <span className="font-semibold text-lg text-primary dark:text-[#CBA135]">Asuka</span>
-        </div>
+        </Link>
 
         <div className="hidden md:flex items-center gap-8">
           <button onClick={() => scrollToSection('products')} className="text-sm font-medium hover:opacity-70 transition text-primary dark:text-[#CBA135]">

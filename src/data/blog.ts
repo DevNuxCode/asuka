@@ -180,7 +180,7 @@ El skincare no se trata de usar muchos productos, sino de aprender a cuidar tu p
   },
 
   {
-  id: 5,
+  id: 7,
   title: 'Dónde comprar productos de skincare para vender en Chile: Guía completa para emprendedores (2026)',
   slug: 'donde-comprar-productos-skincare-para-vender-chile',
   excerpt:
@@ -422,7 +422,7 @@ author:'Asuka',
 readTime:6,
 },
 {
-id:7,
+id:8,
 title:'¿Dónde comprar productos coreanos al por mayor en Chile?',
 slug:'productos-coreanos-al-por-mayor-chile',
 excerpt:'Conoce qué debes evaluar antes de comprar cosmética coreana al por mayor y cómo elegir un proveedor confiable.',
