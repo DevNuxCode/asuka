@@ -1,8 +1,25 @@
+
 import { Link, Navigate, useParams } from 'react-router-dom';
 import { Calendar, Clock, User, ChevronRight, ArrowLeft } from 'lucide-react';
 import { blogPosts, BlogPost } from '../data/blog';
 import SEO from '../components/SEO';
 import { SITE_URL } from '../config/site';
+
+
+function renderInlineMarkdown(text: string) {
+  return text.split(/(\*\*.*?\*\*)/g).map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return (
+        <strong key={index} className="font-semibold text-primary dark:text-[#CBA135]">
+          {part.slice(2, -2)}
+        </strong>
+      );
+    }
+
+    return part;
+  });
+}
+
 
 function renderContent(content: string) {
   const lines = content.split('\n');
@@ -21,13 +38,7 @@ function renderContent(content: string) {
         </h3>
       );
     }
-    if (line.startsWith('**') && line.endsWith('**')) {
-      return (
-        <p key={index} className="font-semibold my-2 text-primary dark:text-[#CBA135]">
-          {line.replace(/\*\*/g, '')}
-        </p>
-      );
-    }
+    
     if (line.startsWith('- ')) {
       return (
         <li key={index} className="ml-4 my-1 text-gray-600 dark:text-gray-400">
@@ -48,10 +59,10 @@ function renderContent(content: string) {
       return <div key={index} className="h-3" />;
     }
     return (
-      <p key={index} className="my-2 text-gray-600 dark:text-gray-400 leading-relaxed">
-        {line}
-      </p>
-    );
+  <p key={index} className="my-2 text-gray-600 dark:text-gray-800 leading-relaxed">
+    {renderInlineMarkdown(line)}
+  </p>
+);
   });
 }
 
