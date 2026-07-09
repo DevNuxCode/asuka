@@ -16,6 +16,7 @@ export const blogCategories = [
   'Skincare',
   'Capilar',
   'Corporal',
+  'Emprendedor',
 ] as const;
 
 export type BlogCategory = (typeof blogCategories)[number];
@@ -177,5 +178,69 @@ El skincare no se trata de usar muchos productos, sino de aprender a cuidar tu p
     author: 'Asuka',
     readTime: 6,
   },
+
+  {
+id: 1,
+title: '¿Dónde comprar productos de skincare para vender en Chile?',
+slug:'donde-comprar-productos-skincare-para-vender',
+excerpt:'Guía para emprendedores que buscan proveedores de skincare y productos de belleza para comenzar un negocio rentable.',
+content:`# ¿Dónde comprar productos de skincare para vender en Chile?
+
+## ¿Cómo elegir un proveedor?
+
+Al buscar **donde comprar productos de skincare para vender** es importante evaluar calidad, disponibilidad, tiempos de entrega, variedad y respaldo.
+
+## Qué considerar
+
+- Calidad del producto.
+- Cumplimiento normativo.
+- Catálogo actualizado.
+- Precios competitivos.
+- Compras mayoristas.
+
+## Emprender con productos de belleza
+
+El mercado chileno continúa creciendo gracias al interés por el cuidado personal y el bienestar.
+
+### Consejo ASUKA
+
+Antes de comprar grandes cantidades, solicita catálogos, compara proveedores y estudia a tu público objetivo.`,
+image:'/asukablog.jpg',
+category:'Emprendedor',
+date:'2026-07-08',
+author:'Asuka',
+readTime:6,
+},
+{
+id:7,
+title:'¿Dónde comprar productos coreanos al por mayor en Chile?',
+slug:'productos-coreanos-al-por-mayor-chile',
+excerpt:'Conoce qué debes evaluar antes de comprar cosmética coreana al por mayor y cómo elegir un proveedor confiable.',
+content:`# ¿Dónde comprar productos coreanos al por mayor en Chile?
+
+## Cosmética coreana
+
+La cosmética coreana destaca por su innovación, ingredientes y rutinas de cuidado facial.
+
+## Antes de comprar
+
+- Verifica la autenticidad.
+- Revisa fechas de vencimiento.
+- Evalúa el proveedor.
+- Compara precios y stock.
+
+## ¿Dónde comprar productos coreanos al por mayor en Chile?
+
+Busca empresas establecidas que ofrezcan garantía, soporte y disponibilidad para emprendedores.
+
+### Consejo ASUKA
+
+Construye una oferta variada combinando skincare, cuidado corporal y fragancias para diferenciar tu negocio.`,
+image:'/asukablog.jpg',
+category:'Emprendedor',
+date:'2026-07-08',
+author:'Asuka',
+readTime:7,
+}
 
 ];
