@@ -68,7 +68,7 @@ function renderContent(content: string) {
       return <div key={index} className="h-3" />;
     }
     return (
-  <p key={index} className="my-2 text-gray-600 dark:text-gray-800 leading-relaxed">
+  <p key={index} className="my-2 text-gray-600 dark:text-gray-200 leading-relaxed">
     {renderInlineMarkdown(line)}
   </p>
 );
