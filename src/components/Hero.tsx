@@ -11,23 +11,23 @@ export default function Hero() {
           />
         </div>
         <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight text-primary dark:text-[#CBA135]">
-          Cuidado Personal Natural
+          Asuka - Aroma del Mañana
         </h1>
         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed max-w-2xl mx-auto">
-          Productos de alta calidad para tu cabello, piel y cuerpo. Cada fórmula está diseñada con ingredientes naturales para potenciar tu belleza.
+          Cosmética, bienestar y experiencia sensorial para transformar tu rutina de autocuidado en un momento de relajación y confort.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
             onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-8 py-3 text-white rounded-lg font-semibold hover:opacity-90 transition transform hover:scale-105 bg-primary dark:bg-[#CBA135]"
           >
-            Descubre Nuestros Productos
+            Ver Productos
           </button>
           <button
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-8 py-3 rounded-lg font-semibold border-2 transition transform hover:scale-105 text-primary dark:text-[#CBA135] border-primary dark:border-[#CBA135]"
           >
-            Contáctanos
+            Venta Mayorista
           </button>
         </div>
       </div>

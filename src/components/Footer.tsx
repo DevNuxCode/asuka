@@ -1,11 +1,16 @@
-import { MapPin, Instagram, Facebook, Zap } from 'lucide-react';
+import { MapPin, Instagram, Facebook, Zap, Phone } from 'lucide-react';
 import { useState } from 'react';
 import { sendWhatsAppMessage } from '../utils/whatsapp';
+import CompanyPage from './CompanyPage';
+import Modal from './Modal';
+import { companyPages } from "../data/company";
 
 export default function Footer() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [statusMessage, setStatusMessage] = useState('');
+
+  const [page, setPage] = useState<keyof typeof companyPages | null>(null);
 
   const handleContactSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -31,40 +36,23 @@ export default function Footer() {
           {/* Contacto */}
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <img src="/LogoIA-white.png" alt="Asuka" className="h-8 w-8" />
-              <h3 className="text-xl font-bold">Asuka Cosmetics</h3>
+              <a href="#" className="flex items-center gap-2 hover:opacity-80 transition">
+                <img src="/LogoIA-white.png" alt="Asuka" className="h-8 w-8" />
+              
+              <h3 className="text-xl font-bold">Asuka</h3>
+              </a>
             </div>
             <p className="text-sm mb-6 opacity-80 dark:text-gray-400">
-              Cuidado personal natural y de calidad para ti.
+              Cosmética, bienestar y experiencia sensorial para transformar tu rutina de autocuidado en un momento de relajación y confort.
             </p>
+            {/* Redes Sociales */}
 
-            <div className="space-y-3">
-              <a
-                href="https://wa.me/56946970108"
-                className="flex items-center gap-2 hover:opacity-80 transition"
-              >
-                <Zap size={18} className="text-[#CBA135]" />
-                <span className="text-sm">+56 9 4697 0108</span>
-              </a>
-              <div className="flex items-center gap-2">
-                <MapPin size={18} className="text-[#CBA135]" />
-                <span className="text-sm">Santiago, Chile</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Redes Sociales */}
-          <div>
             <h3 className="text-lg font-bold mb-6">Síguenos</h3>
+            
             <div className="space-y-3">
-              <a
-                href="https://www.instagram.com/asuka_cl"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 hover:opacity-80 transition"
-              >
+              <a href="https://www.instagram.com/asuka_cl" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:opacity-80 transition">
                 <Instagram size={20} className="text-[#CBA135]" />
-                <span className="text-sm">Instagram</span>
+                  <span className="text-sm">Instagram</span>
               </a>
               <a
                 href="https://www.facebook.com/profile.php?id=61590129577447&locale=es_LA"
@@ -84,12 +72,85 @@ export default function Footer() {
                 <Zap size={20} className="text-[#CBA135]" />
                 <span className="text-sm">TikTok</span>
               </a>
+              <a
+                href="https://wa.me/56946970108"
+                className="flex items-center gap-2 hover:opacity-80 transition"
+              >
+                <Phone size={18} className="text-[#CBA135]" />
+                <span className="text-sm">+56 9 4697 0108</span>
+              </a>
+              <div className="flex items-center gap-2">
+                <MapPin size={18} className="text-[#CBA135]" />
+                <span className="text-sm">Santiago, Chile</span>
+              </div>
+
+              
             </div>
+
+
+                
+              
+            </div>
+          
+            
+          
+
+          
+              <div> 
+
+
+
+                      <h3 className="text-lg font-bold mb-6">Nosotros</h3>
+                <p><button
+                  onClick={() => setPage("about")}
+                  className="hover:text-[#CBA135] transition"
+                  >
+                    Quiénes Somos
+                </button></p>
+
+                <p><button
+                  onClick={() => setPage("history")}
+                  className="hover:text-[#CBA135] transition"
+                  >
+                    Historia
+                </button></p>
+
+                <p><button
+                  onClick={() => setPage("mision")}
+                  className="hover:text-[#CBA135] transition"
+                  >
+                    Mision
+                </button></p>
+
+                <p><button
+                  onClick={() => setPage("vision")}
+                  className="hover:text-[#CBA135] transition"
+                  >
+                    Vision
+                </button></p>
+
+
+                <p><button
+                  onClick={() => setPage("valores")}
+                  className="hover:text-[#CBA135] transition"
+                  >
+                    Valores
+                </button></p>
+                  
+                  <br />
+
+
+
+
+
+
+            
           </div>
 
           {/* Formulario de Contacto */}
           <div>
             <h3 className="text-lg font-bold mb-6">Envíanos un Mensaje</h3>
+            <p>Ponte en contacto si quieres vender con Asuka</p> <br />
             <form onSubmit={handleContactSubmit} className="space-y-3">
               <input
                 type="email"
@@ -124,6 +185,13 @@ export default function Footer() {
           <p>Asuka Cosmetics 2026. Todos los derechos reservados.</p>
         </div>
       </div>
+      <Modal
+                      isOpen={page !== null}
+                      onClose={() => setPage(null)}
+                        >
+                          {page && <CompanyPage page={page} />}
+                </Modal>
     </footer>
   );
+      
 }
