@@ -24,7 +24,7 @@ export default function Hero() {
             Ver Productos
           </button>
           <button
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => document.getElementById('wholesale')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-8 py-3 rounded-lg font-semibold border-2 transition transform hover:scale-105 text-primary dark:text-[#CBA135] border-primary dark:border-[#CBA135]"
           >
             Venta Mayorista

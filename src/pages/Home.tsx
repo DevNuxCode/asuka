@@ -1,7 +1,12 @@
 import Hero from '../components/Hero';
+import TrustBar from '../components/TrustBar';
 import Products from '../components/Products';
+import Wholesale from '../components/Wholesale';
 import Testimonials from '../components/Testimonials';
+import Sustainability from '../components/Sustainability';
+import SocialFeed from '../components/SocialFeed';
 import Blog from '../components/Blog';
+import FAQ from '../components/FAQ';
 import SEO from '../components/SEO';
 import { DEFAULT_META_DESCRIPTION } from '../config/site';
 
@@ -18,9 +23,14 @@ export default function Home({ onAddToCart }: HomeProps) {
         path="/"
       />
       <Hero />
+      <TrustBar />
       <Products onAddToCart={onAddToCart} />
+      <Wholesale />
       <Testimonials />
+      <Sustainability />
+      <SocialFeed />
       <Blog />
+      <FAQ />
     </>
   );
 }

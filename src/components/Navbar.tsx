@@ -63,11 +63,17 @@ export default function Navbar({ cartCount, onCartClick }: NavbarProps) {
           <button onClick={() => scrollToSection('products')} className="text-sm font-medium hover:opacity-70 transition text-primary dark:text-[#CBA135]">
             Productos
           </button>
+          <button onClick={() => scrollToSection('wholesale')} className="text-sm font-medium hover:opacity-70 transition text-primary dark:text-[#CBA135]">
+            Mayorista
+          </button>
           <button onClick={() => scrollToSection('testimonials')} className="text-sm font-medium hover:opacity-70 transition text-primary dark:text-[#CBA135]">
             Testimonios
           </button>
           <button onClick={() => scrollToSection('blog')} className="text-sm font-medium hover:opacity-70 transition text-primary dark:text-[#CBA135]">
             Blog
+          </button>
+          <button onClick={() => scrollToSection('faq')} className="text-sm font-medium hover:opacity-70 transition text-primary dark:text-[#CBA135]">
+            FAQ
           </button>
           <button onClick={() => scrollToSection('contact')} className="text-sm font-medium hover:opacity-70 transition text-primary dark:text-[#CBA135]">
             Contacto
@@ -114,11 +120,17 @@ export default function Navbar({ cartCount, onCartClick }: NavbarProps) {
             <button onClick={() => scrollToSection('products')} className="block w-full text-left py-2 text-sm font-medium hover:opacity-70 text-primary dark:text-[#CBA135]">
               Productos
             </button>
+            <button onClick={() => scrollToSection('wholesale')} className="block w-full text-left py-2 text-sm font-medium hover:opacity-70 text-primary dark:text-[#CBA135]">
+              Mayorista
+            </button>
             <button onClick={() => scrollToSection('testimonials')} className="block w-full text-left py-2 text-sm font-medium hover:opacity-70 text-primary dark:text-[#CBA135]">
               Testimonios
             </button>
             <button onClick={() => scrollToSection('blog')} className="block w-full text-left py-2 text-sm font-medium hover:opacity-70 text-primary dark:text-[#CBA135]">
               Blog
+            </button>
+            <button onClick={() => scrollToSection('faq')} className="block w-full text-left py-2 text-sm font-medium hover:opacity-70 text-primary dark:text-[#CBA135]">
+              FAQ
             </button>
             <button onClick={() => scrollToSection('contact')} className="block w-full text-left py-2 text-sm font-medium hover:opacity-70 text-primary dark:text-[#CBA135]">
               Contacto
