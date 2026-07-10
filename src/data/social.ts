@@ -30,7 +30,7 @@ export const socialPosts: SocialPost[] = [
     network: 'instagram',
     image: '/body_mist_a_thousand_wishes.jpg',
     caption: 'Nuestro Body Mist favorito de la temporada ✨',
-    url: 'https://www.instagram.com/asuka_cl',
+    url: 'https://www.instagram.com/asuka_cl/reel/DZxVhuhipKx/?hl=es',
   },
   {
     id: 2,

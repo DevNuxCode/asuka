@@ -678,7 +678,7 @@ Si buscas **dónde comprar productos coreanos al por mayor** o específicamente 
 
 El skincare coreano continúa consolidándose como uno de los segmentos de mayor crecimiento dentro de la industria de la belleza. Apostar por productos de calidad, mantenerse al día con las tendencias y ofrecer una atención personalizada permitirá que tu emprendimiento destaque y construya una base de clientes fieles a largo plazo.`,
   image: 'https://www.image2url.com/r2/default/images/1783634557559-f76cf367-7e56-4b2d-84d4-6a38dea44fc8.jpg',
-  category: 'Skincare',
+  category: 'Emprendedor',
   date: '2026-07-08',
   author: 'Asuka',
   readTime: 11,
